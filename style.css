@@ -1,0 +1,384 @@
+body{
+    background-color: #eaf0f7;
+
+}
+.navbar{
+    padding-top: 15px;
+    width: 100%;
+    background-color: #1a253f;
+    height: 62.5px;
+    display: block;
+}
+.navbar a{
+    margin-left: 15px;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+.logo{
+    width: 40px;
+    margin-left: 10%;
+    border-radius: 50%;
+    align-items: center;
+}
+.main-section{
+    margin: 1% 7%;
+    background-color: #ffffff;
+}
+.main-section h4{
+    font-size: x-large;
+    padding-left: 3%;
+    color: #2c3f69fd;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.main-card{
+    display: flex;
+    height: 350px;
+    background-color: #1a253f;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 50%;
+}
+.main-card p{
+    color: #ffffff;
+    
+}
+.card1 {
+    flex: 2;
+    padding-left: 2%;
+}
+.card1 p{
+    font-weight: 300;
+    font-style: italic;
+    color: #ffffff;
+    margin-left: 6%;
+    font-weight: 400;
+}
+
+.card1 img{
+    margin-top: 4%;
+    margin-left: 5%;
+    width: 100px;
+    border-radius: 50%;
+    border: 5px solid #d9ecec;
+}
+.name{
+    font-weight: bold; 
+    font-size: x-large;
+    letter-spacing: 1px;
+    color: #ffffff;
+    margin: 2%;
+    font-family: 'Poppins', sans-serif;
+
+}
+.aboutme{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-left: 3%;
+    color: #ffffff;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.card2 {
+    flex: 1;
+    padding-top: 5%;
+    padding-right: 10%;
+    text-align: end;
+}
+#down_cv{
+    margin: 1% 5%;
+    border-radius: 5%;
+    width: 17%;
+    height: 5vh;
+    background-color: rgba(77, 121, 246, 0.1);
+    color: #4d79f6;
+    border: none;
+}
+#down_cv:hover{
+    border-radius: 5%;
+    width: 17%;
+    height: 5vh;
+    background-color: #4d79f6;
+    color: #ffffff;
+    border: none;
+}
+.edu-skills{
+    padding: 1% 5%;
+    display: flex;
+}
+.education div{
+    padding-left: 5%;
+    border-left:blue dashed 0.5px ;
+}
+.experience div{
+    padding-left: 5%;
+    border-left:blue dashed 0.5px ;
+}
+.heading{
+    color: #50649c;
+    font-family: 'Poppins', sans-serif;
+
+}
+.year{
+    color: #50649c;
+}
+.dep{
+    color: #50649c;
+    font-weight: bold;
+}
+.uc{
+    color: #50649c;
+    font-style: oblique;
+}
+.education-section{
+    display: flex;
+}
+.skills-section{
+    width: 50%;
+    padding: 2% 1%;
+}
+.skills-section span{
+    font-family: 'Poppins', sans-serif;
+    color: #50649cdc;
+    
+}
+
+.skills-section .heading{
+    
+    margin-top: -4%;
+}
+.skills-section .skill-bar{
+    margin: 2.2rem 0;
+}
+.skills-section .skill-bar:first-child{
+    margin-top: 0px;
+}
+.skills-section .skill-bar .info span{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.progress-line{
+    width: 100%;
+    height: 12px;
+    background: #f0f0f0;
+    border-radius: 10px;
+    position: relative;
+    box-shadow: 0px 1px 1px #50649c, 0px 1px #50649c;
+}
+.progress-line span {
+    height: 100%;
+    width: 80%;
+    background: #4d79f6;
+    position: absolute;
+    border-radius: 10px;
+}
+
+.skill-bar .progress-line span::after {
+    position: absolute;
+    right: 0;
+    top: -35px;
+    color: #50649c;
+}
+
+.progress-line.html span::after {
+    content: "90%";
+}
+.progress-line.js span::after {
+    content: "70%";
+}
+.progress-line.reactjs span::after {
+    content: "60%";
+}
+
+.progress-line.python span::after {
+    content: "60%";
+}
+
+.progress-line.java span::after {
+    content: "80%";
+}
+
+.progress-line.html span {
+    width: 90%;
+}
+.progress-line.js span {
+    width: 70%;
+}
+.progress-line.reactjs span {
+    width: 60%;
+}
+
+.progress-line.python span {
+    width: 60%;
+}
+
+.progress-line.java span {
+    width: 80%;
+}
+.contact-sec{
+    display: flex;
+    width: 100%;
+}
+.contact-details{
+    width: 40%;
+    margin-left: 3%;
+}
+.contact-details p {
+    padding-left: 5%;
+    line-height: 9px;
+    
+}
+
+.contact-heading {
+    font-weight: bold;
+    color: #50649c;
+
+}
+
+.contact-info {
+    font-style: italic;
+    color: #50649c;
+
+}
+.form-label {
+    font-weight: bold;
+    color: #50649c;
+}
+textarea {
+    resize: none;
+    width: 80%;
+    color: #50649c;
+}
+
+.contact1{
+    display: flex;
+}
+
+.contact1 .form-control{
+    color: #50649c;
+}
+
+
+.contact1 ::placeholder { 
+    color: #50649c;
+    opacity: 1; 
+  }
+
+.contact-form button{
+    margin: 1% 5%;
+    border-radius: 5%;
+    width: 17%;
+    height: 5vh;
+    background-color: rgba(77, 121, 246, 0.1);
+    color: #4d79f6;
+    border: none;
+}
+.contact-form button:hover{
+    border-radius: 5%;
+    width: 17%;
+    height: 5vh;
+    background-color: #4d79f6;
+    color: #ffffff;
+    border: none;
+}
+footer {
+    font-size: 14px;
+    color: #50649c;
+    font-weight: bold;
+    padding-top: 15px;
+    height: 55px;
+    text-align: center;
+    background-color: #50649c2c;
+    line-height: 1.6;
+   letter-spacing: 1px;
+}
+@media only screen and (max-width: 350px) and (min-width:0px) {
+    .edu-skills{
+        display: contents;
+
+    }
+
+    .contact-sec{
+        display: block;
+    }
+
+    #down_cv {
+        width: 30%;
+    }
+}
+@media only screen and (max-width: 400px) and (min-width: 350px) {
+    .edu-skills {
+        display: contents;
+
+    }
+
+    .contact-sec {
+        display: block;
+    }
+
+    #down_cv {
+        width: 21%;
+    }
+}
+@media only screen and (max-width: 700px) and (min-width: 350px) {
+
+    .name{
+        font-size: small;
+    }
+    .main-card p{
+        font-size: 10px;
+    }
+    .main-section h4{
+        font-size: medium;
+        margin: 2%;
+    }
+
+    .edu-skills{
+        display: contents;
+        
+    }
+    .edu-skills div{
+        margin: 10px;
+        
+    }
+
+    .heading{
+        font-size: 15px;
+        margin-left: 10px;
+    }
+
+    .contact-sec {
+        display: block;
+        font-size: small;
+        width: 100%;
+        padding: 10px 15px;
+    }
+
+    #down_cv {
+        width: 40%;
+    }
+    .info head{
+        font-size: 5px;
+        margin-left: 20px;
+    }
+    .progress-line{
+        margin: 3px 90px;
+        width: 100%;
+        height: 5px;
+    }
+    .contact-details{
+        width: 100%;
+        margin: 20px 0;
+        
+    }
+    .contact-form button{
+        font-size: small;
+    }
+    .main-card{
+        border-bottom-left-radius: 5px;
+        margin-bottom: 10px;
+        height: 280px;
+    }
+}
